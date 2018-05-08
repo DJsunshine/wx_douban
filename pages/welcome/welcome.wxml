@@ -1,0 +1,7 @@
+<view class='welcome-container'>
+   <image src='/img/4.png' class='head'></image>
+   <text class='username'>DJsunshine</text> 
+   <view class='info' bindtap='open'>
+      <text>开启小程序之旅</text>
+   </view>
+</view>
