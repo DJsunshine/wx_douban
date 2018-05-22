@@ -6,5 +6,23 @@
   ],
   "window": {
     "navigationBarBackgroundColor": "#405f80"
+  },
+  "tabbar":{
+    "borderStyle": "white",
+    "position":"bottom",
+    "list":[
+      {
+        "pathPath":"pages/read/read",
+        "text":"阅读",
+        "iconPath":"image/tab/yuedu.png",
+        "selectedIconPath":"image/tab/yuedu_h1.png"
+      },
+      {
+        "pathPath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "image/tab/dianying.png",
+        "selectedIconPath": "image/tab/dianying_h1.png"
+      }
+    ]    
   }
 }

@@ -7,7 +7,7 @@ Page({
     
   },
   open:()=>{
-    wx.navigateTo({
+    wx.switchTab({
       url: '../read/read',
     })
   },
