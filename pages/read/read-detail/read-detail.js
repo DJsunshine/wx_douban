@@ -99,7 +99,7 @@ Page({
   onShareAppMessage: function () {
     var that=this;
   return{
-    title: that.readData.title,
+    title: that.data.readData.title,
     path: '/pages/read/read-detail/read-detail?id=' + that.data.collectId,
     success:function(res){
       console.log(res)
