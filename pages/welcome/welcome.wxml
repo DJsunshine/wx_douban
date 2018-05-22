@@ -1,8 +1,7 @@
 <view class='welcome-container'>
-   <image src='/img/4.png' class='head'></image>
-   <text class='username'>DJsunshine</text> 
+   <image src='/image/head/4.png' class='head'></image>
+   <text class='username'>虎皮猫大人</text> 
    <view class='info' bindtap='open'>
       <text>开启小程序之旅</text>
-     轻微剧情片群文件二片区去我家没人陪阿萨德群翁群无请问请问viewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewviewview
    </view>
 </view>

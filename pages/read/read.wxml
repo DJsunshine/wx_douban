@@ -1,2 +1,20 @@
-<!--pages/read/read.wxml-->
-<text>pages/read/read.wxml</text>
+<import src="read-item/read-item.wxml" />
+<view class='read-container'>
+  <swiper catchtap='onSwiperTap' autoplay='true' interval='5000' indicator-dots='true' >
+    <swiper-item>
+     <image src='/image/swiper/vr.png' data-readId="4" ></image>
+    </swiper-item>
+    <swiper-item>
+     <image src='/image/swiper/iqiyi.png' data-readId="5"></image>
+    </swiper-item>
+    <swiper-item>
+     <image src='/image/swiper/wx.png' data-readId="3"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for='{{readList}}' wx:key="idx" >
+    <view bindtap='detail' data-readId="{{item.postId}}">
+      <template is="readItem" data='{{...item}}' />
+    </view>
+  </block>
+  
+</view>
