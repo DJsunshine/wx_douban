@@ -1,0 +1,61 @@
+<view class='movie-detail-container'>
+  <image  class='head-img' src='https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2452075545.jpg'></image>
+  <view class='head-title'>
+      <text class='main-title'>风声雨声读书声声声入耳，家事国事天下事事事关心</text>
+      <text class='sub-title'>古代·111</text>
+      <view class='like'>
+          <text class='color-text'>20000</text>
+          <text class='plain-font'>人喜欢</text>
+          <text class='color-text'>3219</text>
+          <text class='plain-font'>条评论</text>
+      </view>
+  </view>
+  <image class='movie-img' src='https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2452075545.jpg'></image>
+  <view class='summary'>
+    <view class='original-title'>
+      <text>终结者2</text>
+    </view>
+
+    <view class='flex-row'>
+      <text class='mark'>评分</text>
+      <view></view>
+    </view>
+
+    <view class='flex-row'>
+      <text class='mark'>评分</text>
+      <text>S·S·拉贾穆里</text>
+    </view>
+
+    <view class='flex-row'>
+      <text class='mark'>影人</text>
+      <text>S·S·拉贾穆里</text>
+    </view>
+
+    <view class='flex-row'>
+      <text class='mark'>类型</text>
+      <text>S·S·拉贾穆里</text>
+    </view>
+
+
+  </view>
+  <!--分割线  -->
+  <view class='hr'>
+  </view>
+  <!--剧情介绍  -->
+  <view class='synopsis'>
+    <text class='synopsis-title'>剧情介绍</text>
+    <text class='synopsis-content'>同蛮族的大战以摩喜施末底的胜利而告终，根据战场上的表现，希瓦伽米太后（拉姆亚·克里希南饰）选择了养子阿玛兰德拉·巴霍巴利（帕拉巴斯饰）作为王国的王储。在加冕典礼之前太后交给巴霍巴利的最后一项任务是游历王国，体察臣民的疾苦，理解'臣民的审判'。同时，太后还竭尽全力满足自己的亲子巴拉拉德夫德斯（纳拉·达古巴提饰）的各种需求，希望能够克制他的贪婪，平衡兄弟的关系。\n巴霍巴利经过一个叫昆达拉的诸侯小国时，偶遇美丽绝伦、剑术高超的提婆犀那公主（安努舒卡·谢蒂饰），立刻惊为天人，无以自拔。同行的卡塔帕将军（萨蒂亚拉吉饰）灵机一动，让巴霍巴利装成傻子去接近公主，在妙趣横生的交往中，感情在慢慢滋生。这时，希瓦伽米太后派人来到昆达拉为子提亲，遭到提婆犀那的拒绝。一个夜晚，蛮族忽然入侵昆达拉，王国命运危在旦夕，这时巴霍巴利有如天兵天将，凭借其盖世武功将敌军击退。正在此时...</text>    
+  </view>
+   <!--分割线  -->
+  <view class='hr'>
+  </view>
+  <view class='cast'>
+    <text class='cast-title'>影人</text>、
+    <scroll-view>
+      <view class='cast-container'>
+        <image  class='cast-img' src='https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/pVUhhcCTzVhIcel_avatar_uploaded1353924831.96.jpg'></image>
+        <text class='cast-name'>是</text>
+      </view>
+    </scroll-view>
+  </view>
+</view>

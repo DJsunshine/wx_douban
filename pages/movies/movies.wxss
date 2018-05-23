@@ -1,4 +1,25 @@
-.movies-container{
+@import 'movies-list/movies-list.wxss';
+.container{
   display: flex;
   flex-direction: column;
+  background: #f2f2f2;
+}
+.movis-template{
+  margin-bottom: 30rpx;
+}
+.search{
+  display: flex;
+  flex-direction: row;
+  background: #f2f2f2;
+  height: 80rpx;
+  width: 100%;
+}
+.search-img{
+  margin: auto 0 auto 20rpx;
+}
+.search input{
+  height: 100%;
+  width: 600rpx;
+  margin-left: 20rpx;
+  font-size: 28rpx;
 }
