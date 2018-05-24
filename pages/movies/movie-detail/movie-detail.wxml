@@ -50,11 +50,21 @@
   <view class='hr'>
   </view>
   <view class='cast'>
-    <text class='cast-title'>影人</text>、
-    <scroll-view>
+    <text class='cast-title'>影人</text>
+    <scroll-view class='cast-imgs' style='width:100%;'>
       <view class='cast-container'>
         <image  class='cast-img' src='https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/pVUhhcCTzVhIcel_avatar_uploaded1353924831.96.jpg'></image>
-        <text class='cast-name'>是</text>
+        <text class='cast-name'>吕克·贝松</text>
+      </view>
+
+      <view class='cast-container'>
+        <image  class='cast-img' src='https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/pVUhhcCTzVhIcel_avatar_uploaded1353924831.96.jpg'></image>
+        <text class='cast-name'>吕克·贝松</text>
+      </view>
+
+      <view class='cast-container'>
+        <image  class='cast-img' src='https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/pVUhhcCTzVhIcel_avatar_uploaded1353924831.96.jpg'></image>
+        <text class='cast-name'>吕克·贝松</text>
       </view>
     </scroll-view>
   </view>
